@@ -1,6 +1,6 @@
 'use strict';
 
-const createList = () => {
+const array = () => {
   const elements = [];
   const retrieve = (index) => elements[index];
   retrieve.add = (item) => elements.push(item);
